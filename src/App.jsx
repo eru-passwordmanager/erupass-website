@@ -7,15 +7,18 @@ import Download from './components/Download'
 import Footer from './components/Footer'
 
 function App() {
+  const [theme, setTheme] = useState("dark");
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Features/>
-      <Architecture/>
-      <Download/>
-      <Footer/>
+      <div className={theme}>
+        <Navbar theme={theme} setTheme={setTheme}/>
+        <Hero/>
+        <Features/>
+        <Architecture/>
+        <Download/>
+        <Footer/>
+      </div>
     </>
   )
 }
