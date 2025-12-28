@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+section {
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  background: #020617;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-btn {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 8px 0;
+}
+
+.architecture pre {
+  background: #020617;
+  padding: 16px;
+  display: inline-block;
+  text-align: left;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 24px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.footer {
+  padding: 24px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
