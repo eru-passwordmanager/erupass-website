@@ -6,7 +6,7 @@ function Download(params) {
 
             <a 
                 className="download-btn"
-                href="/downloads/Erupass-Setup.exe"
+                href="https://github.com/eru-passwordmanager/erupass-website/releases/download/v1.0.0/Erupass.Setup.1.0.0.exe"
             >
                 Download for Windows
             </a>
