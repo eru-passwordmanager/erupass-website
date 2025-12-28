@@ -17,6 +17,29 @@ section {
   position: sticky;
   top: 0;
   background: #020617;
+  color: #e5e7eb;    
+  z-index: 10;
+}
+
+.light .navbar {
+  background: #e5e7eb;
+  color: #020617;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: currentColor;     
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .logo {
@@ -26,6 +49,16 @@ section {
 .nav-btn {
   color: #38bdf8;
   text-decoration: none;
+  font-weight: 600;
+}
+
+.light .nav-btn{
+  color: #0284c7;
+}
+
+.nav-btn:hover,
+.theme-toggle:hover {
+  opacity: 0.8;
 }
 
 .hero h1 {
@@ -63,4 +96,19 @@ section {
   padding: 24px;
   font-size: 0.85rem;
   opacity: 0.8;
+}
+
+.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+.light .navbar,
+.light .architecture pre {
+  background: #e5e7eb;
 }
