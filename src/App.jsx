@@ -1,7 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import Architecture from './components/Architecture'
+import Download from './components/Download'
+import Footer from './components/Footer'
 
 function App() {
 
