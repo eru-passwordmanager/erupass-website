@@ -3,7 +3,7 @@ import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 function Navbar({theme, setTheme}) {
     return(
         <nav className="navbar">
-            <span className="logo">Erupass v1.0.0</span>
+            <span className="logo">Erupass v0.9.0-alpha</span>
             <div className="nav-actions">
                 <button
                     className="theme-toggle"
