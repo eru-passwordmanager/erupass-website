@@ -11,7 +11,7 @@ function Download(params) {
                 Download for Windows v0.9.0-alpha
             </a>
             <div>
-                <small>Version 1.0.0 - Information Security Lecture Project</small>
+                <small>Version v0.9.0-alpha - Information Security Lecture Project</small>
             </div>
         </section>
     )
