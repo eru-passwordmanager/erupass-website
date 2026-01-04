@@ -20,7 +20,7 @@ https://erupass.recinan.net
 Uygulamanın en güncel Windows sürümü GitHub Releases üzerinden dağıtılmaktadır.
 
 **Direct Download (Latest):**  
-https://github.com/erupass/erupass-client/releases/latest/download/Erupass-Setup.exe
+https://github.com/eru-passwordmanager/erupass-website/releases/download/0.9.0-alpha/Erupass.Setup.0.9.0-alpha.exe
 
 > Website yalnızca indirme bağlantısı sağlar.  
 > Uygulama binary dosyaları bu repository içinde tutulmaz.
